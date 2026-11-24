@@ -1,7 +1,7 @@
 <img src="assets/banner.svg" alt="Mariana Pineda Isaza — Machine Learning, Python APIs, CI/CD, Kubernetes, Google Cloud" width="100%">
 
 <p align="left">
-<a href="https://www.linkedin.com/in/mariana-pineda-isaza-998877262/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/marianapinedaisaza/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:mariana.isaza.2004@outlook.com"><img src="https://img.shields.io/badge/Email-0B1026?style=for-the-badge" alt="Email"></a>
 <img src="https://img.shields.io/badge/Open_to-Junior_roles_·_Remote_/_Hybrid-3EE6C4?style=for-the-badge&labelColor=0B1026" alt="Open to junior roles, remote or hybrid">
 </p>
