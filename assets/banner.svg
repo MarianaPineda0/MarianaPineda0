@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Mariana Pineda Isaza — Machine Learning, Python APIs, CI/CD, Kubernetes, Google Cloud">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1026"/>
+      <stop offset="0.55" stop-color="#151A3D"/>
+      <stop offset="1" stop-color="#241A4A"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6C7BFF"/>
+      <stop offset="1" stop-color="#3EE6C4"/>
+    </linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3EE6C4" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#3EE6C4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.3" r="0.5">
+      <stop offset="0" stop-color="#6C7BFF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#6C7BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#glow)"/>
+
+  <!-- network of nodes (right side) -->
+  <g stroke="#8B95FF" stroke-opacity="0.28" stroke-width="1">
+    <line x1="760" y1="70" x2="860" y2="48"/>
+    <line x1="860" y1="48" x2="980" y2="86"/>
+    <line x1="980" y1="86" x2="1100" y2="44"/>
+    <line x1="860" y1="48" x2="900" y2="130"/>
+    <line x1="980" y1="86" x2="900" y2="130"/>
+    <line x1="1100" y1="44" x2="1140" y2="120"/>
+    <line x1="980" y1="86" x2="1060" y2="150"/>
+    <line x1="1060" y1="150" x2="1140" y2="120"/>
+  </g>
+  <g fill="#C9CEFF">
+    <circle cx="760" cy="70" r="3" fill-opacity="0.6"/>
+    <circle cx="860" cy="48" r="4" fill-opacity="0.8"/>
+    <circle cx="980" cy="86" r="3.5" fill-opacity="0.7"/>
+    <circle cx="1100" cy="44" r="4" fill-opacity="0.8"/>
+    <circle cx="900" cy="130" r="3" fill-opacity="0.5"/>
+    <circle cx="1060" cy="150" r="3" fill-opacity="0.5"/>
+    <circle cx="1140" cy="120" r="3.5" fill-opacity="0.6"/>
+  </g>
+
+  <!-- rising metric line -->
+  <path d="M700 250 L770 236 L840 242 L910 212 L980 220 L1050 180 L1120 166 L1170 140 L1170 300 L700 300 Z" fill="url(#area)"/>
+  <polyline points="700,250 770,236 840,242 910,212 980,220 1050,180 1120,166 1170,140" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#0B1026" stroke="#3EE6C4" stroke-width="2">
+    <circle cx="910" cy="212" r="4.5"/>
+    <circle cx="1050" cy="180" r="4.5"/>
+    <circle cx="1170" cy="140" r="5.5"/>
+  </g>
+
+  <!-- text -->
+  <g font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif">
+    <text x="64" y="92" fill="#3EE6C4" font-size="16" font-weight="600" letter-spacing="3">AI · DATA · CLOUD</text>
+    <text x="62" y="152" fill="#FFFFFF" font-size="52" font-weight="700">Mariana Pineda Isaza</text>
+    <text x="64" y="192" fill="#C9CEFF" font-size="21">Machine Learning · Python APIs · CI/CD · Kubernetes · Google Cloud</text>
+    <text x="64" y="240" fill="#8E95C9" font-size="16">Systems Engineering · Universidad de Medellín · Medellín, Colombia</text>
+  </g>
+</svg>
