@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Machine Learning projects: NLP with BERT and RoBERTa, computer vision with ResNet50 and VGG16, classical ML with logistic regression and SVM">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1330"/>
+      <stop offset="1" stop-color="#1D1842"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" rx="16" fill="url(#bg3)"/>
+  <g font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif">
+    <text x="56" y="62" fill="#FFFFFF" font-size="30" font-weight="700">Machine Learning<tspan dx="16" fill="#8E95C9" font-size="17" font-weight="400">Team projects · Artificial Intelligence course · Universidad de Medellín · 2026</tspan></text>
+
+    <!-- card 1 -->
+    <rect x="56" y="96" width="344" height="236" rx="12" fill="#FFFFFF" fill-opacity="0.04" stroke="#6C7BFF" stroke-opacity="0.5"/>
+    <text x="80" y="130" fill="#6C7BFF" font-size="14" font-weight="600" letter-spacing="2">NLP</text>
+    <text x="80" y="162" fill="#FFFFFF" font-size="20" font-weight="600">Sentiment analysis</text>
+    <text x="80" y="190" fill="#AEB4E0" font-size="15">Fine-tuned BERT and RoBERTa</text>
+    <text x="80" y="212" fill="#AEB4E0" font-size="15">on IMDb movie reviews</text>
+    <text x="80" y="268" fill="#3EE6C4" font-size="30" font-weight="700">94.3 %</text>
+    <text x="80" y="296" fill="#8E95C9" font-size="14">test accuracy · RoBERTa · 25,000 reviews</text>
+
+    <!-- card 2 -->
+    <rect x="428" y="96" width="344" height="236" rx="12" fill="#FFFFFF" fill-opacity="0.04" stroke="#50B0DA" stroke-opacity="0.5"/>
+    <text x="452" y="130" fill="#50B0DA" font-size="14" font-weight="600" letter-spacing="2">COMPUTER VISION</text>
+    <text x="452" y="162" fill="#FFFFFF" font-size="20" font-weight="600">Food-101 classifier</text>
+    <text x="452" y="190" fill="#AEB4E0" font-size="15">Transfer learning with CNNs:</text>
+    <text x="452" y="212" fill="#AEB4E0" font-size="15">ResNet50 vs VGG16 (Keras)</text>
+    <text x="452" y="268" fill="#3EE6C4" font-size="30" font-weight="700">101 classes</text>
+    <text x="452" y="296" fill="#8E95C9" font-size="14">top-1, top-5 and macro-F1 evaluation</text>
+
+    <!-- card 3 -->
+    <rect x="800" y="96" width="344" height="236" rx="12" fill="#FFFFFF" fill-opacity="0.04" stroke="#3EE6C4" stroke-opacity="0.5"/>
+    <text x="824" y="130" fill="#3EE6C4" font-size="14" font-weight="600" letter-spacing="2">CLASSICAL ML</text>
+    <text x="824" y="162" fill="#FFFFFF" font-size="20" font-weight="600">E-Sports performance</text>
+    <text x="824" y="190" fill="#AEB4E0" font-size="15">Logistic regression vs linear SVM,</text>
+    <text x="824" y="212" fill="#AEB4E0" font-size="15">10-fold CV and grid search</text>
+    <text x="824" y="268" fill="#3EE6C4" font-size="30" font-weight="700">250,000</text>
+    <text x="824" y="296" fill="#8E95C9" font-size="14">biometric records · scikit-learn pipelines</text>
+  </g>
+</svg>
