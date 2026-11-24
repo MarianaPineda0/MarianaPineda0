@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="StatsNostra: five releases — CI/CD, multicloud observability, Terraform, canary releases, chaos engineering">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1330"/>
+      <stop offset="1" stop-color="#1D1842"/>
+    </linearGradient>
+    <linearGradient id="track" gradientUnits="userSpaceOnUse" x1="150" y1="0" x2="1050" y2="0">
+      <stop offset="0" stop-color="#6C7BFF"/>
+      <stop offset="1" stop-color="#3EE6C4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" rx="16" fill="url(#bg2)"/>
+
+  <g font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif">
+    <!-- header -->
+    <text x="56" y="62" fill="#FFFFFF" font-size="30" font-weight="700">StatsNostra<tspan dx="16" fill="#8E95C9" font-size="17" font-weight="400">Sports-prediction REST API · FastAPI + PostgreSQL · academic project</tspan></text>
+    <text x="56" y="94" fill="#C9CEFF" font-size="17">From a two-environment pipeline to a production-style platform, in five releases</text>
+
+    <!-- track -->
+    <line x1="150" y1="160" x2="1050" y2="160" stroke="url(#track)" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- nodes -->
+    <g text-anchor="middle">
+      <g>
+        <circle cx="150" cy="160" r="22" fill="#0E1330" stroke="#6C7BFF" stroke-width="3"/>
+        <text x="150" y="166" fill="#FFFFFF" font-size="16" font-weight="700">v1</text>
+        <text x="150" y="222" fill="#FFFFFF" font-size="19" font-weight="600">CI/CD</text>
+        <text x="150" y="250" fill="#AEB4E0" font-size="15">GitHub Actions to test</text>
+        <text x="150" y="272" fill="#AEB4E0" font-size="15">and production</text>
+      </g>
+      <g>
+        <circle cx="375" cy="160" r="22" fill="#0E1330" stroke="#5E95EC" stroke-width="3"/>
+        <text x="375" y="166" fill="#FFFFFF" font-size="16" font-weight="700">v2</text>
+        <text x="375" y="222" fill="#FFFFFF" font-size="19" font-weight="600">Multicloud</text>
+        <text x="375" y="250" fill="#AEB4E0" font-size="15">GKE + HPA, Redis cache,</text>
+        <text x="375" y="272" fill="#AEB4E0" font-size="15">one trace across 3 clouds</text>
+      </g>
+      <g>
+        <circle cx="600" cy="160" r="22" fill="#0E1330" stroke="#50B0DA" stroke-width="3"/>
+        <text x="600" y="166" fill="#FFFFFF" font-size="16" font-weight="700">v3</text>
+        <text x="600" y="222" fill="#FFFFFF" font-size="19" font-weight="600">Infra as code</text>
+        <text x="600" y="250" fill="#AEB4E0" font-size="15">Full GCP stack</text>
+        <text x="600" y="272" fill="#AEB4E0" font-size="15">managed with Terraform</text>
+      </g>
+      <g>
+        <circle cx="825" cy="160" r="22" fill="#0E1330" stroke="#46CBCF" stroke-width="3"/>
+        <text x="825" y="166" fill="#FFFFFF" font-size="16" font-weight="700">v4</text>
+        <text x="825" y="222" fill="#FFFFFF" font-size="19" font-weight="600">Canary releases</text>
+        <text x="825" y="250" fill="#AEB4E0" font-size="15">10 → 25 → 50 → 100 % traffic</text>
+        <text x="825" y="272" fill="#AEB4E0" font-size="15">behind an SLO quality gate</text>
+      </g>
+      <g>
+        <circle cx="1050" cy="160" r="22" fill="#0E1330" stroke="#3EE6C4" stroke-width="3"/>
+        <text x="1050" y="166" fill="#FFFFFF" font-size="16" font-weight="700">v5</text>
+        <text x="1050" y="222" fill="#FFFFFF" font-size="19" font-weight="600">Chaos engineering</text>
+        <text x="1050" y="250" fill="#AEB4E0" font-size="15">p95 under CPU stress:</text>
+        <text x="1050" y="272" fill="#3EE6C4" font-size="15" font-weight="600">3,425 ms → 774 ms</text>
+      </g>
+    </g>
+
+    <!-- stack -->
+    <line x1="56" y1="312" x2="1144" y2="312" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="56" y="352" fill="#8E95C9" font-size="15">Python · FastAPI · PostgreSQL · Docker · GitHub Actions · GKE · Cloud Run · Terraform · OpenTelemetry · Grafana · k6 · Chaos Toolkit</text>
+  </g>
+</svg>
